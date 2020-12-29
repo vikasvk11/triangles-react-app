@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  overflow: auto;
 }
 
 .angle-input {
@@ -154,12 +155,12 @@
 }
 
 footer {
-  display: inline-block;
-  width: 300px;
+  display: block;
   position: absolute;
-  height: 70px;
-  bottom: 10px;
-  margin-left: 30vw;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .footer-header {
@@ -167,12 +168,11 @@ footer {
   padding-bottom: 1rem;
   text-align: center;
   font-weight: 700;
-  color: rgb(65, 41, 41);
 }
 
 .footer-list {
   align-content: center;
-  margin-left: 3rem;
+  text-align: center;
 }
 
 .list-item-inline {
