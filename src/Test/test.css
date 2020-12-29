@@ -1,0 +1,239 @@
+.testhd {
+  color: #3a3a3a;
+  text-shadow: 5px 0px 1px rgba(140, 165, 0, 0.32);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 238, 0);
+  font-size: 2.5rem;
+}
+
+.testsection {
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  background-color: rgba(196, 196, 196, 0.95);
+  border-radius: 2rem;
+  padding: 1rem 0rem;
+  max-width: 30rem;
+  box-shadow: 0px 50px 15px -30px rgb(0, 0, 0, 0.09);
+}
+
+.testangleshd {
+  padding: 1rem 0rem;
+  color: #34380e;
+}
+
+.anglelabel {
+  font-weight: 500;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.anglecheckbtn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.3rem 0.8rem;
+  background-color: #e4db5e;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 2px 6px 2px 0px rgb(0, 0, 0, 0.38);
+  font-weight: 800;
+  color: #50523e;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 2px 1.5px 1px rgb(0, 0, 0, 0.2);
+}
+
+.anglecheckbtn:hover {
+  background-color: #fffc5d;
+}
+
+.anglecheckbtn:active {
+  background-color: #e4db5e;
+  transform: translateY(4px);
+  box-shadow: 2px 2px 2px 0px rgb(0, 0, 0, 0.41),
+    inset 2px 2px 3px rgba(114, 114, 114, 0.41);
+}
+
+.angle-input {
+  padding: 0.1rem 0rem;
+  border-radius: 0.3rem;
+  border: none;
+  border-bottom: 2px solid rgb(128, 129, 75);
+}
+
+.angle-input:focus {
+  border-radius: 0.3rem;
+  outline: none;
+  background-color: rgb(255, 251, 202);
+}
+
+.testangleoutput {
+  font-weight: 600;
+}
+
+.qalabel {
+  font-size: 1.1rem;
+  margin: 1rem 0rem;
+}
+
+.testqahd,
+.mcqhd {
+  padding: 0.5rem 0rem;
+  color: #34380e;
+}
+
+.mcqhd span {
+  font-size: 1rem;
+}
+
+.testqabtn {
+  margin: 1rem 0;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  display: block;
+  background-color: #e4db5e;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 2px 6px 2px 0px rgb(0, 0, 0, 0.38);
+  font-weight: 800;
+  color: #50523e;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 2px 1.5px 1px rgb(0, 0, 0, 0.2);
+}
+
+.testqabtn:hover {
+  background-color: #fffc5d;
+}
+
+.testqabtn:active {
+  background-color: #e4db5e;
+  transform: translateY(4px);
+  box-shadow: 2px 2px 2px 0px rgb(0, 0, 0, 0.41),
+    inset 2px 2px 3px rgba(114, 114, 114, 0.41);
+}
+
+.testqainput {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 0 0.5rem;
+  border-bottom: 2px solid rgb(128, 129, 75);
+}
+
+.testqainput:focus {
+  border-radius: 0.3rem;
+  outline: none;
+  background-color: rgb(255, 251, 202);
+}
+
+.qa {
+  height: 14rem;
+}
+
+.angles {
+  height: 11rem;
+}
+
+.qaresults,
+.mcqresults {
+  transform: translateY(4rem);
+}
+
+.qapgbtn,
+.mcqpgbtn {
+  margin: 1rem 0;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  display: block;
+  background-color: #e4d05e;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 2px 6px 2px 0px rgb(0, 0, 0, 0.38);
+  font-weight: 800;
+  color: #50523e;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 2px 1.5px 1px rgb(0, 0, 0, 0.2);
+}
+
+.qapgbtn:hover,
+.mcqpgbtn:hover {
+  background-color: #ffe15d;
+}
+
+.qapgbtn:active,
+.mcqpgbtn:active {
+  background-color: #e4cb5e;
+  transform: translateY(4px);
+  box-shadow: 2px 2px 2px 0px rgb(0, 0, 0, 0.41),
+    inset 2px 2px 3px rgba(114, 114, 114, 0.41);
+}
+
+.mcqq {
+  padding: 1rem 0rem;
+}
+
+.mcqoptions {
+  margin: 0rem 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  width: 7rem;
+  height: 2rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  border: 1px solid rgb(204, 172, 32);
+  box-shadow: 0px 15px 6px -9px rgba(143, 141, 14, 0.616);
+  background-color: #f6f8e4;
+  outline: none;
+}
+
+.mcqoptions:hover {
+  background-color: #ffffff;
+}
+
+.mcqoptions:active {
+  background-color: #ffffff;
+  box-shadow: 0px 11px 6px -9px rgba(143, 141, 14, 0.616),
+    inset 0px 1px 6px 0px rgba(143, 141, 14, 0.616);
+  transform: translateY(4px);
+}
+
+.mcq {
+  height: 13rem;
+}
+
+@media (max-width: 550px) {
+  .mcqoptions {
+    margin: 0rem 2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 7rem;
+    height: 2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(204, 172, 32);
+    box-shadow: 0px 15px 6px -9px rgba(143, 141, 14, 0.616);
+    background-color: #f6f8e4;
+    outline: none;
+  }
+}

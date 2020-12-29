@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.angle-input {
+  margin: 0rem 1rem;
+}
+
+.calculate {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.question {
+  text-align: left;
+  margin: 2rem auto;
+}
+
+@keyframes LA {
+  from {
+    clip-path: polygon(100% 100%, 0% 100%, 50% -100%);
+  }
+  to {
+    clip-path: polygon(100% 100%, 0% 100%, 50% 100%);
+  }
+}
+
+.landing {
+  background-color: #ebebeb;
+  min-width: 100%;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  margin: auto;
+  animation-name: LA;
+  animation-duration: 1s;
+  animation-delay: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes T1A {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-40px, -30px);
+  }
+}
+
+@keyframes T2A {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(40px, -30px);
+  }
+}
+
+@keyframes T3A {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 50px);
+  }
+}
+
+@keyframes T1SA {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-10px, -10px);
+  }
+}
+
+@keyframes T2SA {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(10px, -10px);
+  }
+}
+
+@keyframes T3SA {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 10px);
+  }
+}
+
+.T1 {
+  transform: translate(0px, 0px);
+  animation-name: T1A;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.T2 {
+  transform: translate(0px, 0px);
+  animation-name: T2A;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.T3 {
+  transform: translate(0px, 0px);
+  animation-name: T3A;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.T1S {
+  transform: translate(0px, 0px);
+  animation-name: T1SA;
+  animation-duration: 2s;
+  animation-delay: 0.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.T2S {
+  transform: translate(0px, 0px);
+  animation-name: T2SA;
+  animation-duration: 2s;
+  animation-delay: 0.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.T3S {
+  transform: translate(0px, 0px);
+  animation-name: T3SA;
+  animation-duration: 2s;
+  animation-delay: 0.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}

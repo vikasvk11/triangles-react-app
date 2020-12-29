@@ -1,0 +1,65 @@
+.App {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 22px;
+}
+
+.mainhd {
+  color: #464646;
+  text-shadow: 5px 0px 1px rgb(97, 35, 0, 0.41);
+}
+
+.mainbtn {
+  background-color: #d0d0d0;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 2rem 3rem;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 6rem;
+  text-align: center;
+  box-shadow: 2px 6px 2px 0px rgb(0, 0, 0, 0.41);
+  font-weight: 800;
+  color: #474747;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 2px 1.5px 1px rgb(0, 0, 0, 0.2);
+}
+
+.mainbtn:hover {
+  background-color: #dbdbdb;
+}
+
+.mainbtn:active {
+  background-color: #c7c7c7;
+  transform: translateY(4px);
+  box-shadow: 2px 2px 2px 0px rgb(0, 0, 0, 0.41),
+    inset 2px 2px 3px rgba(114, 114, 114, 0.41);
+}
+
+@media (max-width: 550px) {
+  .mainbtn {
+    background-color: #d0d0d0;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 2rem 1rem;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    box-shadow: 2px 6px 2px 0px rgb(0, 0, 0, 0.41);
+    font-weight: 800;
+    color: #474747;
+    cursor: pointer;
+    outline: none;
+    text-shadow: 2px 1.5px 1px rgb(0, 0, 0, 0.2);
+  }
+}

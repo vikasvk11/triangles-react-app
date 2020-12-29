@@ -1,0 +1,62 @@
+.learnhd {
+  color: #3a3a3a;
+  text-shadow: 5px 0px 1px rgb(0, 165, 16, 0.32);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(43, 255, 0);
+}
+
+.learnbtn {
+  background-color: #d0d0d0a8;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 2rem 1rem;
+  border-radius: 2rem;
+  height: 1.6rem;
+  width: 5rem;
+  text-align: center;
+  box-shadow: 2px 6px 2px 0px rgb(0, 0, 0, 0.41);
+  font-weight: 800;
+  color: #474747;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 2px 1.5px 1px rgb(0, 0, 0, 0.3);
+}
+
+.learnbtn:hover {
+  background-color: #dbdbdb;
+}
+
+.learnbtn:active {
+  background-color: #c7c7c7;
+  transform: translateY(4px);
+  box-shadow: 2px 2px 2px 0px rgb(0, 0, 0, 0.41),
+    inset 2px 2px 3px rgba(114, 114, 114, 0.41);
+}
+
+.learnsection {
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  background-color: rgba(196, 196, 196, 0.95);
+  border-radius: 2rem;
+  padding: 1rem 0rem;
+  max-width: 30rem;
+  box-shadow: 0px 50px 15px -30px rgb(0, 0, 0, 0.09);
+}
+
+.learnlist {
+  margin: 0.5rem 0rem;
+  text-align: left;
+  padding: 0rem 1rem;
+  font-weight: 600;
+  list-style-position: inside;
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style-type: circle;
+}
+
+.learnsectionhd {
+  padding: 0.5rem 0rem;
+  color: #0e380e;
+}

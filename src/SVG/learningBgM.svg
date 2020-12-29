@@ -1,0 +1,55 @@
+<svg width="1092" height="2360" viewBox="0 0 1092 2360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="iPhone 11 Pro Max - 1" clip-path="url(#clip0)">
+<rect width="1092" height="2360" fill="white"/>
+<g id="Group 1">
+<rect width="1092" height="2360" fill="#EBEBEB"/>
+<line id="Line 6" y1="-0.5" x2="1537.42" y2="-0.5" transform="matrix(0.931408 0.363978 -0.412339 0.91103 -248.555 414)" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 4" y1="-0.5" x2="996.001" y2="-0.5" transform="matrix(0.929937 -0.367718 0.415298 0.909686 629.781 1490.46)" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 5" y1="-0.5" x2="882.725" y2="-0.5" transform="matrix(0.930615 -0.366001 0.413441 0.910531 -256.037 1840)" stroke="black" stroke-opacity="0.26"/>
+<path id="Polygon 2" d="M581.416 1511.2L600.603 1480.27L619.79 1511.2H581.416Z" stroke="black" stroke-opacity="0.3"/>
+</g>
+<g id="Group 2">
+<line id="Line 1" x1="2048.5" y1="674.563" x2="965.005" y2="218.238" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 3" y1="-0.5" x2="413.362" y2="-0.5" transform="matrix(-0.703255 0.710938 -0.673264 -0.739402 492.987 2268.72)" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 6_2" y1="-0.5" x2="2096.84" y2="-0.5" transform="matrix(-0.69696 0.71711 -0.679559 -0.733621 2048.69 674.102)" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 4_2" y1="-0.5" x2="1358.42" y2="-0.5" transform="matrix(-0.0220579 0.999757 -0.99956 0.0296518 230.667 1208.27)" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 5_2" y1="-0.5" x2="1203.93" y2="-0.5" transform="matrix(-0.0239037 0.999714 -0.999619 0.0276124 260.249 -90.1921)" stroke="black" stroke-opacity="0.26"/>
+<line id="Line 2" x1="893.239" y1="188.013" x2="259.595" y2="-78.8529" stroke="black" stroke-opacity="0.26"/>
+<path id="Polygon 1" d="M920.848 171.455L949.925 212.452L900.28 220.292L920.848 171.455Z" stroke="black" stroke-opacity="0.3"/>
+<path id="Polygon 2_2" d="M230.165 1136.13L259.243 1177.12L209.597 1184.97L230.165 1136.13Z" stroke="black" stroke-opacity="0.3"/>
+<path id="Polygon 3" d="M545.584 2187.94L574.661 2228.94L525.015 2236.78L545.584 2187.94Z" stroke="black" stroke-opacity="0.3"/>
+</g>
+<path id="Vector 3" d="M546 1218.67V830L201 1413L546 1218.67Z" fill="#444444" fill-opacity="0.94" stroke="black"/>
+<g id="Vector 4" filter="url(#filter0_d)">
+<path d="M621 1195V806L964.5 1389.5L621 1195Z" fill="#444444" fill-opacity="0.94"/>
+<path d="M621 1195V806L964.5 1389.5L621 1195Z" stroke="black"/>
+</g>
+<g id="Vector 5" filter="url(#filter1_d)">
+<path d="M547.211 1294.53L892 1493.6L203 1492.6L547.211 1294.53Z" fill="#444444" fill-opacity="0.94"/>
+<path d="M547.211 1294.53L892 1493.6L203 1492.6L547.211 1294.53Z" stroke="black"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="570.5" y="804.165" width="395.378" height="613.69" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dx="-48" dy="25"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.675 0 0 0 0 0.675 0 0 0 0 0.675 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" x="199.133" y="1136.88" width="696.737" height="656.426" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="-55"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.67451 0 0 0 0 0.67451 0 0 0 0 0.67451 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="1092" height="2360" fill="white"/>
+</clipPath>
+</defs>
+</svg>
