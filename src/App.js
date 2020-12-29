@@ -7,6 +7,11 @@ import calculatorBg from "./SVG/calculatorBg.svg";
 import learningBg from "./SVG/learningBg.svg";
 import testBg from "./SVG/testBg.svg";
 
+import imageW from "./websiteB.png";
+import imageG from "./GitHub-MarkB.png";
+import imageL from "./LinkedINB.png";
+import imageI from "./instagramB.png";
+
 import TriangleBgM from "./SVG/triangleBgM.svg";
 import calculatorBgM from "./SVG/calculatorBgM.svg";
 import learningBgM from "./SVG/learningBgM.svg";
@@ -59,6 +64,58 @@ export default function App() {
 
         <div className="content">{input}</div>
       </div>
+      <footer>
+        <div className="footer-header">Connect with me on</div>
+        <ul className="footer-list">
+          <li className="list-item-inline">
+            <a href="https://vikasvk.netlify.app/">
+              <img
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                src={imageW}
+                alt="Website"
+              />
+            </a>
+          </li>
+
+          <li className="list-item-inline">
+            <a href="https://github.com/vikasvk11">
+              <img
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                src={imageG}
+                alt="GitHub"
+              />
+            </a>
+          </li>
+
+          <li className="list-item-inline">
+            <a href="https://www.linkedin.com/in/vikas-v-k-a613bb138/">
+              <img
+                width="20"
+                height="20"
+                viewBox="0 0 30 30"
+                src={imageL}
+                alt="LinkedIn"
+              />
+            </a>
+          </li>
+
+          <li className="list-item-inline">
+            <a href="https://www.instagram.com/vikasvk_">
+              <img
+                width="20"
+                height="20"
+                viewBox="0 0 30 30"
+                src={imageI}
+                alt="Instagram"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
